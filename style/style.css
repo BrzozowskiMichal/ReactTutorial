@@ -1,0 +1,70 @@
+.search-bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 100%;
+}
+
+.video-item img {
+    max-width: 64px;
+}
+
+.video-detail{
+    border: 2px solid #fff;
+    border-radius: 0.5%;
+}
+
+.list-group-item{
+    cursor: pointer;
+}
+
+.list-group-item:hover{
+    background-color: #fff;
+}
+
+.media-body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 20px;
+}
+
+.media-heading{
+    padding: 30px;
+}
+
+.sweet-loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.details{
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 35px;
+}
+
+.video-description{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+html, body{
+    background: #1e5799;
+    background: -moz-linear-gradient(top,  #00C9FF 0%, #92FE9D 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00C9FF), color-stop(100%,#92FE9D));
+    background: -webkit-linear-gradient(top,  #00C9FF 0%, #92FE9D 100%);
+    background: -o-linear-gradient(top,  #00C9FF 0%, #92FE9D 100%);
+    background: -ms-linear-gradient(top,  #00C9FF 0%, #92FE9D 100%);
+    background: linear-gradient(to bottom,   #00C9FF 0%, #92FE9D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00C9FF', endColorstr='#92FE9D',GradientType=0 );
+    background-attachment: fixed;
+}
